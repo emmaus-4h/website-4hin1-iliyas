@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: black;
   text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #030303;
 }
 
 
