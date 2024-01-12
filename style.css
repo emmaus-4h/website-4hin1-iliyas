@@ -5,8 +5,9 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
-  
+/* html {border: 5px solid  yellow;}   */
+ /*
+body {border: 5px solid purple;}  */
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -24,7 +25,7 @@
 
 html, body {                      /* geldt voor html en body */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #ffffff;               /* tekstkleur donkergrijs */
+  color: #ffffff;   /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -133,10 +134,13 @@ nav li a.active {
 .item-tekst {
   float: right;
   width: 450px;
+  background-color:rgba(90, 90, 90, 0.8);
+  padding: 10px;
 }
 
-{
-  background-image: url(https://i.pinimg.com/736x/01/27/f5/0127f5a030d9c43f635b0938633c64ba.jpg);
+body {
+  background-image: url("afbeeldingen/blijekip.jpeg");
+  background-size: cover;
   
 }
 
