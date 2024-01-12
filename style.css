@@ -24,7 +24,7 @@
 
 html, body {                      /* geldt voor html en body */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -37,6 +37,10 @@ div {                             /* geldt voor div */
 /************************* ALLE WEBPAGINA'S *************************/
 
 /* Indeling en opmaak voor alle pagina's */
+body {
+ background-image: url("afbeeldingen/MooisteKipTW.jpeg");
+ background-size: cover;
+}
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
@@ -68,7 +72,7 @@ img {
 }
 
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -122,13 +126,18 @@ nav li a.active {
 
 .item-plaatje {
   float: left;
-  width: 250px;
+  width: 180px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 .item-tekst {
   float: right;
   width: 450px;
+}
+
+{
+  background-image: url(https://i.pinimg.com/736x/01/27/f5/0127f5a030d9c43f635b0938633c64ba.jpg);
+  
 }
 
 /************************* SUBPAGINA *************************/
